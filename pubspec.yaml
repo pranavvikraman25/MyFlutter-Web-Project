@@ -1,4 +1,13 @@
+name: todo_web_app
+description: A simple Flutter Web To-Do App
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
   shared_preferences: ^2.2.2
+
+flutter:
+  uses-material-design: true
